@@ -64,3 +64,15 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 920px) {
+  .project {
+    width: calc((100% / 2) - 1rem);
+  }
+}
+
+@media (max-width: 560px) {
+  .project {
+    width: calc((100% / 1) - 1rem);
+  }
+}

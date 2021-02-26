@@ -8,8 +8,8 @@ function ProjectList({ onClick }) {
     <div className="project-list">
       {projects.map((project) => (
         <Project
-          data={project}
           key={project.id}
+          data={project}
           onClick={() => {
             onClick(project);
           }}

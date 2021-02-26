@@ -38,3 +38,9 @@ header {
 .sns-link:hover path {
   fill: var(--primary-color);
 }
+
+@media (max-width: 1100px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+}

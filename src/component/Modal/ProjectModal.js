@@ -1,29 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
+import ImageSlider from './ImageSlider';
 import { ReactComponent as Close } from './close.svg';
-import { ReactComponent as Back } from './back.svg';
-import { ReactComponent as Forward } from './forward.svg';
 import { ReactComponent as Github } from './icon_github.svg';
 
 function Project({ data, onClick }) {
-  const slider = useRef();
-  const [currentImage, setCurrentImage] = useState(0);
-  const maxImage = data.image.length - 1;
-
-  const prevBtn = () => {
-    if (currentImage !== 0) {
-      setCurrentImage(currentImage - 1);
-    }
-  };
-  const nextBtn = () => {
-    if (currentImage !== maxImage) {
-      setCurrentImage(currentImage + 1);
-    }
-  };
-
-  useEffect(() => {
-    slider.current.style.transform = `translateX(-${currentImage}00%)`;
-  }, [currentImage]);
-
   const page = useRef();
   useEffect(() => {
     page.current.classList.add('open', 'open-page');
@@ -44,43 +24,20 @@ function Project({ data, onClick }) {
       </div>
 
       <div className="page-section">
-        <div className="image-slider">
-          <div className="slider-count">
-            {currentImage + 1}/{maxImage + 1}
-          </div>
-          <div className="slider-btns">
-            {currentImage !== 0 && (
-              <button className="prev" type="button" onClick={prevBtn}>
-                <Back />
-              </button>
-            )}
-            {currentImage !== maxImage && (
-              <button className="next" type="button" onClick={nextBtn}>
-                <Forward />
-              </button>
-            )}
-          </div>
-          <div ref={slider} className="slider">
-            {data.image.map((current) => (
-              <img
-                key={current}
-                alt={`${data.title}_${current}`}
-                src={`${process.env.PUBLIC_URL}/image/${data.title}/${current}.png`}
-              />
-            ))}
-          </div>
-        </div>
+        <ImageSlider data={data} />
       </div>
 
       <div className="use page-section">
-        {data.use.map((current) => (
-          <div className="used">{current}</div>
+        {data.use.map((current, i) => (
+          <div className="used" key={i}>
+            {current}
+          </div>
         ))}
       </div>
 
       <div className="page-section">
-        {data.desc.split('//').map((current) => (
-          <p>{current}</p>
+        {data.desc.split('//').map((current, i) => (
+          <p key={i}>{current}</p>
         ))}
       </div>
 

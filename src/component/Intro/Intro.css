@@ -40,3 +40,23 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 750px) {
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
+}
