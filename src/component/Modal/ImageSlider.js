@@ -63,37 +63,3 @@ function ImageSlider({ data }) {
 }
 
 export default ImageSlider;
-
-{
-  /* <div className="image-slider">
-<div className="slider-count">
-  {currentImage}/{maxImage}
-</div>
-<div className="slider-btns">
-  {currentImage !== 1 && (
-    <button className="prev" type="button" onClick={prevBtn}>
-      <Back />
-    </button>
-  )}
-  {currentImage !== maxImage && (
-    <button className="next" type="button" onClick={nextBtn}>
-      <Forward />
-    </button>
-  )}
-</div>
-<div ref={slider} className="slider">
-  <div className="slider-image left-image">
-    <img
-      alt={`${data.title}_1`}
-      src={`${process.env.PUBLIC_URL}/image/${data.title}/1.png`}
-    />
-  </div>
-  <div className="slider-image right-image">
-    <img
-      alt={`${data.title}_2`}
-      src={`${process.env.PUBLIC_URL}/image/${data.title}/2.png`}
-    />
-  </div>
-</div>
-</div> */
-}

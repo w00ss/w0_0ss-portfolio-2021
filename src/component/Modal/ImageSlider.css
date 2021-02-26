@@ -30,7 +30,7 @@
   z-index: 14;
 }
 
-.image-slider:hover .slider-count {
+.image-slider-container:hover .slider-count {
   opacity: 0.9;
 }
 
