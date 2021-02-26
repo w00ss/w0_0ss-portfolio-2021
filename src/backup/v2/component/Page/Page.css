@@ -1,0 +1,48 @@
+.page-container {
+  width: 100%;
+  padding-left: 20rem;
+}
+
+.page {
+  background-color: #ffffff;
+  box-shadow: 0 10px 16px -4px rgba(0, 0, 0, 0.24);
+  padding: 3rem 3rem 4rem 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  position: relative;
+  display: inline-block;
+  color: var(--primary-color);
+}
+
+.page-title h3 {
+  position: relative;
+  z-index: 5;
+}
+
+.bar {
+  position: absolute;
+  bottom: -0.125rem;
+  height: 1rem;
+  width: calc(100% + 0.5rem);
+  background-color: var(--secondary-color);
+}
+
+.main-title {
+  display: flex;
+  align-items: flex-end;
+  color: var(--primary-color);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.name span {
+  margin-left: 0.25rem;
+  margin-bottom: 0.125rem;
+  color: var(--gray);
+}
+
+.main-desc {
+  color: var(--gray);
+}

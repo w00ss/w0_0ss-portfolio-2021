@@ -1,0 +1,80 @@
+.about-name {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.gray {
+  line-height: 2.125rem;
+  color: #c7c6cc;
+}
+
+.about-info {
+  display: flex;
+}
+
+.info-section {
+  width: calc(100% / 3);
+}
+
+.about-skill {
+  margin-top: 3rem;
+}
+
+/* .about {
+  padding: 3rem 5rem;
+  color: #3d464d;
+}
+
+.about-name {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.about-name-kr {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+.about-name-eng {
+  line-height: 2.125rem;
+  color: #c7c6cc;
+}
+
+.about-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.about-title {
+  font-size: 1.755rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.about-info .about-section {
+  width: calc(100% / 3);
+}
+
+.about-section-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.about-history .about-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about-history .about-section-title {
+  margin-right: 1.5rem;
+} */

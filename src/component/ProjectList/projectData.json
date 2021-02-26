@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 4,
+      "title": "NOTEasy-react",
+      "date": "21-01-21 ~ 21-01-26",
+      "predesc": "React를 배우고 난 후 빠르게 React로 개발을 해보고 싶어서 진행한 프로젝트입니다.",
+      "desc": "React를 배우고 난 후 진행한 프로젝트입니다.//Component에 대한 개념을 알게 되었고, 이용할 수 있게 되었습니다.//전에 만들었던 NOTEasy를 React로 다시 만들어 봤습니다.",
+      "use": ["React"],
+      "image": [1, 2, 3, 4, 5, 6, 7],
+      "url": "https://github.com/w00ss/noteasy-react"
+    },
+    {
+      "id": 3,
+      "title": "Pinterest clone coding",
+      "date": "20-12-28 ~ 21-01-06",
+      "predesc": "개인프로젝트를 진행하면서 전체적인 기술이 부족하다 느껴 클론코딩을 진행했습니다.",
+      "desc": "Youtube의 클론코딩을 해보고 복습으로 Pinterest의 클론코딩을 진행했습니다.",
+      "use": ["HTML5","CSS3","JavaScript"],
+      "image": [1, 2],
+      "url": "https://github.com/w00ss/Clonecoding"
+    },
+    {
+      "id": 2,
+      "title": "Youtube clone coding",
+      "date": "20-12-16 ~ 20-12-24",
+      "predesc": "개인프로젝트를 진행하면서 전체적인 기술이 부족하다 느껴 클론코딩을 진행했습니다.",
+      "desc": "첫 번째 프로젝트를 진행하면서 전체적인 HTML5, CSS3의 기술이 부족하다 느껴 Youtube의 클론코딩을 진행하게 됬습니다.//HTML, CSS의 구조에 대해 좀 더 알아갈 수 있는 시간이였습니다.",
+      "use": ["HTML5","CSS3","JavaScript"],
+      "image": [1, 2],
+      "url": "https://github.com/w00ss/Clonecoding"
+    },
+    {
+      "id": 1,
+      "title": "NOTEasy",
+      "date": "20-09-27 ~ 20-12-28",
+      "predesc": "웹 개발을 배우고 처음으로 만들어 본 개인 프로젝트입니다. LocalStorage를 이용하여 노트작성 시간과 노트를 저장한 후 보여줍니다.",
+      "desc": "좀 간편하게 메모를 쓸 수 없을까? 하고 생각해서 만들어 본 개인 프로젝트입니다.//HTML5, CSS3, JavaScript를 이용해 개발했습니다.//LocalStorage를 이용해 노트를 작성, 수정, 삭제 할 수 있습니다.",
+      "use": ["HTML5","CSS3","JavaScript"],
+      "image": [1, 2, 3, 4, 5],
+      "url": "https://github.com/w00ss/NOTEasy"
+    }
+  ]
+}
