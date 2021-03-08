@@ -23,7 +23,7 @@ function Header() {
           </a>
           <a
             className="sns-link"
-            href="https://github.com/w00ss"
+            href="https://github.com/w00seong"
             target="_blank"
             rel="noopener noreferrer"
           >
